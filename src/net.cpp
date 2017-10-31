@@ -941,6 +941,7 @@ void ThreadSocketHandler2(void* parg)
 static const char *strDNSSeed[][2] = {
     {"213.197.187.238", "213.197.187.238"},
 	{"217.117.29.68", "217.117.29.68"},
+	{"185.177.59.151", "185.177.59.151"},	
 	{"217.117.29.125", "217.117.29.125"}
 };
 
@@ -1011,7 +1012,7 @@ void ThreadDNSAddressSeed2(void* parg)
 
 uint32_t pnSeed[] =
 {
-    0xd5c5bbee, 0x4e99044d, 0xd9751d44, 0xd9751d7d,
+    0xd5c5bbee, 0x4e99044d, 0xd9751d44, 0xd9751d7d, 0xb9b13b97,
 };
 const char* pchTorSeed[] = 
 {
