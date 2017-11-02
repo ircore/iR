@@ -1054,7 +1054,7 @@ CBigNum inline GetProofOfStakeLimit(int nHeight, unsigned int nTime)
 // miner's coin base reward based on nBits
 int64_t GetProofOfWorkReward(unsigned int nBits, int64_t nFees, int nHeight)
 {
-    int64_t nSubsidy = 0.001 * COIN;
+    int64_t nSubsidy = 0 * COIN;
     
 	if (nHeight == 1)
 		return 100000000 * COIN;
