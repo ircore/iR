@@ -42,7 +42,7 @@ uint256 nPoWBase = uint256("0x00000000ffff00000000000000000000000000000000000000
 
 CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
-unsigned int nStakeMinAge = 24 * nOneHour; // hours as zero time weight
+unsigned int nStakeMinAge = 1 * nOneHour; // hours as zero time weight
 unsigned int nStakeMaxAge = -1; //  
 unsigned int nStakeTargetSpacing = 1 * 60; // 5-minute stakes spacing
 int64_t nTargetSpacing = 1 * 60;  // Same as the above
